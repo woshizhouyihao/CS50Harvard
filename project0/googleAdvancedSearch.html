@@ -3,29 +3,27 @@
     <head>
         <title>Google Advanced Search</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
+    	<div class="search" style="padding: 30px">
     	Find pages with
-      <form action="https://google.com/search">
-			
-			<div>all this words: <br>
-				<input type="text" name="as_q">
-				<input type="submit" value="Advanced Search">
-			</div>
-			<div>this exact word or phrase: <br>
-				<input type="text" name="as_epq">
-				<input type="submit" value="Advanced Search">
-			</div>
-			<div>any of these words: <br>
-				<input type="text" name="as_oq">
-				<input type="submit" value="Advanced Search">
-			</div>
-			<div>none of this words: <br>
-				<input type="text" name="as_eq">
-				<input type="submit" value="Advanced Search">
-			</div>
-            
-		</form>
-		<a href="googleSearch.html" style="position: absolute; top: 0; right: 0"> <button>Google Search</button></a>
+      	<form action="https://google.com/search">
+				<div>all this words: <br>
+					<input type="text" name="as_q">
+				</div>
+				<div>this exact word or phrase: <br>
+					<input type="text" name="as_epq">
+				</div>
+				<div>any of these words: <br>
+					<input type="text" name="as_oq">
+				</div>
+				<div>none of this words: <br>
+					<input type="text" name="as_eq">
+				</div>
+					<input type="submit" value="Advanced Search" class="btn btn-primary">
+			</form>
+		</div>
+		<a href="googleSearch.html" style="position: absolute; top: 0; right: 0"> <button class="btn btn-primary">Google Search</button></a>
     </body>
 </html>
